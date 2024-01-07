@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* *{
+            margin-inline:10rem ;
+        } */
+
+        html {
+            font-size: 10px;
+            /* Set a base font size for the root element */
+        }
+
+        table>thead>tr,
+        tbody>tr>td {
+            color: grey;
+            background-color: blue;
+        }
+
+        input[required] {
+            color: red;
+            padding: 20px;
+        }
+
+        /* Selects all <p> elements that are siblings following an <h2> element */
+        h2+p {
+            color: blue;
+        }
+    </style>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<BODY>
+
+
+    <!-- <div class="abc" style="padding: 1rem;margin: 1.2rem;border: 0.5rem solid black ;">
+        <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto molestias cum id tempora rem,
+            exercitationem dolorum quam mollitia ullam non sequi eligendi totam animi et qui nostrum unde itaque
+            doloremque!</div>
+        <div>Voluptatum perferendis officiis aperiam. Nesciunt aut sequi reprehenderit ipsam totam neque illo, magni
+            incidunt voluptatum iusto facilis praesentium assumenda suscipit exercitationem accusantium eligendi
+            expedita voluptate! Eligendi natus quos odit asperiores?</div>
+        <div>Sapiente praesentium ut illum mollitia recusandae dicta deserunt, necessitatibus officia sunt delectus
+            ipsa, rerum in, illo hic nihil omnis. Est, dignissimos obcaecati quam expedita amet ad harum deserunt
+            voluptatibus maxime?</div>
+    </div> -->
+
+
+    <!-- Immediate Sibling & General Sibling -->
+
+    <!-- <div>
+        <p>This paragraph is styled. Above the H2</p>
+        <h2>Title</h2>
+        <p>This paragraph is styled.</p>
+        <span>Some other element</span>
+        <p>This paragraph is also styled.</p>
+    </div> -->
+
+    <!-- Universal Selector -->
+
+    <!-- <div class="form-div">
+        <form action="">
+        <input type="checkbox" required>checkbox
+        <input type="radio">radio
+        </form>
+    </div> -->
+
+    <table border="2px" cellspacing="10" cellpadding="10" rules="all">
+        <thead>
+            <tr >SSLC Time Table</tr>
+            <tr class="abc">
+                <th >Day</th>
+                <th>9 AM</th>
+                <th>9 AM</th>
+                <th>9 AM</th>
+                <th>9 AM</th>
+                <th>9 AM</th>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr style="background-color: red;">
+                <td >Monday</td>
+                <td>Matds</td>
+                <td>English</td>
+                <td>dlfskjls</td>
+                <td>slfdksd</td>
+                <td>sdfsd</td>
+                
+            </tr>
+            <tr>
+                <td>tuesday</td>
+                <td>Matds</td>
+                <td>English</td>
+                <td>dlfskjls</td>
+                <td>slfdksd</td>
+                <td>sdfsd</td>
+                
+            </tr>
+            <tr>
+                <td>friesday</td>
+                <td>Matds</td>
+                <td>English</td>
+                <td>dlfskjls</td>
+                <td>slfdksd</td>
+                <td>sdfsd</td>
+                
+            </tr>
+            <tr>
+                <td>wedsday</td>
+                <td>Matds</td>
+                <td>English</td>
+                <td>dlfskjls</td>
+                <td>slfdksd</td>
+                <td>sdfsd</td>
+                
+            </tr>
+            <tr>
+                <td>tduresday</td>
+                <td>Matds</td>
+                <td>English</td>
+                <td>dlfskjls</td>
+                <td>slfdksd</td>
+                <td>sdfsd</td>
+                
+            </tr>
+        </tbody>
+    </table>
+
+</BODY>
+
+</html>
